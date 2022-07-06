@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
+
+.welcome {
+  height: 100vh;
+  width: 100vw;
+ background: whitesmoke;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-register-container {
+  position: absolute;
+  display: flex;
+  height: 40rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 50px;
+  left: 25rem;
+  top: 360px;
+  background: orange;
+  border-radius: 20px;
+}
+
+.login-register-container > input {
+  height: 30px;
+  width: 80%;
+  border: 1px solid gray;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.login-register-container > button {
+  padding: 5px 20px;
+  border: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.sign-in-register-button {
+  background:blue;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Changa One";
+  font-weight: normal;
+  color: white;
+}
+
+.create-account-button {
+  background: none;
+  margin-top: 10px;
+}
+
+.todo-svg {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+  transform: scale(1.3);
+}

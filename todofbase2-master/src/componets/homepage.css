@@ -1,0 +1,64 @@
+.homepage {
+    height: 100vh;
+    weight: 100vw;
+    background: rgb(221, 230, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .add-edit-input {
+    position: absolute;
+    top: 20px;
+    outline: none;
+    border: none;
+    height: 30px;
+    font-size: 25px;
+    padding: 5px 20px;
+  }
+  
+  .add-confirm-icon {
+    position: absolute;
+    transform: scale(2);
+    top: 27px;
+    right: 35rem;
+    cursor: pointer;
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 40rem;
+  }
+  
+  .todo > h1 {
+    width: 500px;
+    background-color: aqua;
+    padding: 5px 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .logout-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    background: red;
+    color: white;
+  }
+  input{
+    background:#999;
+  }
